@@ -1,0 +1,158 @@
+# print('mai gandu hu')
+
+# variables
+# age=25
+# print(age)
+
+# accepting input
+
+# # with message
+# name=input("input dalo : ")
+
+# # without message
+# name2=input()
+# print(name)
+
+# a=input("first no: ")
+# b=input("second no: ")
+# print(int(a)+int(b))
+# c=int(a)+int(b)
+ 
+#  we converted c to string as we cant concatenate integer with string
+ 
+# print("sum value: "+ str(c))
+
+# string
+
+# here we would learn about the meathods in string
+word="Lets learn how to code in Python"
+# this converts entire string to upper case
+print(word.upper())
+
+# this converts entire string to lower case
+print(word.lower())
+
+#this returns the first index of first occurence of the substring if present or -1
+print(word.find("code"))
+
+print(word.find("good"))
+
+#word.replace(a,b) replaces substring a with substring b  if a not present it returns word as it is
+
+print(word.replace("learn","study"))
+
+print(word.replace("cricket","study"))
+
+# in keyword helps to find weather a substring present in a string or not
+
+print("how" in word)
+
+# arthemetic operations
+# returns floating point answer
+print(10/3)
+
+# returns integer answer
+print(10//3)
+
+# returns exponent value
+
+print(10**3)
+
+# if else statement
+# unlinke c++ a colon and proper indentation is require in Python
+
+t=25
+
+if(t>30):
+    print("too hot day")
+elif(t>20):
+    print("hot day")
+elif(t>10):
+    print("humid day")
+else:
+    print("cold day")
+
+    #loops
+    #while loops
+    
+# similar to if statement
+a=1
+    
+while a<50:
+    a+=1
+    print(a)
+    
+b=1
+
+while b<10:
+      print(b*('t'))   #if we multiply a string by a number it would print that number of that string
+      b+=1
+         
+        
+# lists
+
+names=["govinda","akshay","salman","shahrukh"]
+
+print(names)
+print(names[0])
+print(names[-2])
+# index mod size of list is takken if the final result is not present then error would get thrown
+
+# printing all elements from 0 to 3 i.e less than 4
+print(names[0:4])
+# printing all elements from 0 to 3
+print(names[0:3])
+
+#for loops
+#  unlike c++ in python we directly store the value at a variable not store index
+
+for val in names:
+    print(val)
+
+i=0
+# len meathod in python=size in c++
+
+while i<len(names):
+    
+    print(names[i])
+    i+=1
+    
+    
+# for loop with parameters
+    
+# 1.with start end and common diffrence
+
+for j in range(1,20,2):  # here 1=start ,20=number before which the sequence should end ,2=common diffrence of sequence
+    print(j)
+    
+#  2.with start and end only
+
+for j in range(1,20):  #here only start and end is given so common diffrence is assumed to be 1
+    print(j)
+    
+    
+#3.with only end 
+    
+for k in range(5):  #here k has been initialised without any initial value without even initialisig any value in range as well so it has been automatically/by default initialised as 0 with comon diffrence 1
+    print(k)
+    
+# only in keyword works for lists and in range() acts for directly the numbers in range
+    
+# tuple in python
+# static in nature i.e we cannot change the structure of a tuple once we create them 
+
+tuple1=(3,5,7,7,7,3,3)
+
+#count returns the number of occurences of a particular element in tuple
+print(tuple1.count(7))
+
+#index returns the first occurence of element in tuple in given range
+
+print(tuple1.index(7,3))
+print(tuple1.index(7,3,6))
+print(tuple1.index(7))
+
+
+
+    
+    
