@@ -1,0 +1,34 @@
+Dictionary is just like map in c++ 
+key-value pairs are present
+number,char,string all combinations can be used
+
+shop={
+    "sting":20,
+    "coke":"N/A",
+    "red bull":100,
+    "monster":95,
+    "prime":400
+}
+
+shop["corona"]=300
+
+print(shop["sting"])
+print(shop["red bull"])
+print(shop["monster"])
+
+
+# like c++ we can declare map in the same way we declare in it also we can use the above technique as well 
+# also we can make our new key value pair using get
+
+print(shop.get("sting"))
+# used get to print value
+
+print(shop.get("pepsi",20))
+# used to declare new key value pair
+print(shop["corona"])
+
+shop2={}
+# simple declaration in which we havent declared anything else
+shop2["beer"]=300
+
+print(shop2["beer"])
