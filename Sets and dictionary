@@ -1,0 +1,38 @@
+nums=[1,1,2,2,3,4]
+
+uniq=set(nums)  
+
+# converting list to set by inserting it into a set
+#  adding elements for list = insert for sets= add
+# declaring a list =[] for set {} a tuple ()
+
+print(uniq)
+
+second ={2,3,5,5,7}
+
+print(second)
+
+second.add(8);
+second.add(10);
+
+second.remove(2)
+
+print(len(second))
+
+print(second)
+
+print(uniq|second)
+
+print(uniq & second) 
+
+print(uniq ^ second) 
+
+#in sets ^ mean symmetric diffrence not xor
+#  symmmetric diffrence: either only in a or only in b but not in both
+
+# just like in c++  sets in pyhton also element cant be directly acessed
+
+if 2 in second:
+    print("yes")
+else:
+    print("no")
