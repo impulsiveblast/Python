@@ -157,6 +157,18 @@ print(tuple1.index(7,3,6))
 print(tuple1.index(7))
 
 
+#functions in python 
+def square(num):
+    return num*num
+
+
+k=input()
+k=int(k)
+a=square(k)
+
+print(a)
+
+
 
     
     
