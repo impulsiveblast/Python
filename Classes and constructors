@@ -1,0 +1,29 @@
+class Math:
+    def  __init__(self,x,y):   #initialising a constructor using __init__
+        self.x=x
+        self.y=y
+     
+     
+   
+    def read(self):
+        print("i can read")
+        
+    
+    
+    def write(self):
+        print("i can write")
+        
+        
+        
+
+
+m1=Math(10,20)
+
+# m1.x=4
+# m1.y=5  we can redefine the variable values
+
+print(f"{m1.x} {m1.y}")
+
+
+
+ #constructors       
